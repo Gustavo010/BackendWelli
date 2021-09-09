@@ -1,0 +1,68 @@
+1-  processo q usuario efetua login em um site:
+
+quando efetuar o login no site os dados são passados parao backend
+
+2-o que é backend?
+
+ sendo o responsável por tudo o que acontece por trás da tela. Ele é o responsável por desenvolver os códigos que passarão as instruções para a aplicação, para que os usuários possam acessar a interface e cumprir as solicitações desejadas.
+ O desenvolvedor de back-end, por sua vez, atua na parte dos sistemas e garante que esteja tudo devidamente certo com o servidor.
+
+3- Dentro do MVC qual a responsividade do model, view e controller?
+
+
+O padrão de projetos MVC (Model-View-Controller) tem como objetivo separar lógica de negócios (Model), interface do usuário (View) e o fluxo da aplicação (Control). O padrão MVC usa em sua arquitetura diversos outros padrões de projeto para atingir seu objetivo.
+
+Qual utilidade de dados estruturados na comunicção entre sistemas?
+
+R: Como o próprio nome diz, os dados estruturados são aqueles que possuem estruturas bem definidas, rígidas, pensadas antes da própria existência do dado que será carregado naquela estrutura.
+Não permitem que tipos de dados diferentes das estruturas preestabelecidas sejam carregados. Por exemplo, se a coluna de uma tabela foi criada para ser numérica, ela não aceitará dados textuais.
+Em sua maioria, dentro de seus sistemas, existem bancos de dados criados diretamente pelos usuários de ambientes e tecnologias analíticas (arquivos Excel, por exemplo). 
+Exemplos: planilhas de Excel e tabelas de bancos de dados. 
+--------------------------------------------------------------------------------------------------------------------------
+Explique a diferença entre JSON, CSV E XML
+
+R: A leitura simples de um JSON é que ele representa um objeto que tem atributos e cada atributo tem valores. Os JSONs são estruturados em objetos e/ou arrays (ou listas). Os objetos são representados por chaves { } e os arrays são representados por colchetes [ ] .
+
+Um arquivo CSV nada mais é do que uma planilha em texto puro. Cada linha do arquivo é uma linha da planilha, e as colunas de uma linha são separadas por um delimitador que normalmente é a vírgula ou o ponto-e-vírgula. Isso é o que você vai ver se abrir o arquivo cidades. csv em um editor de texto puro.
+
+é uma linguagem de marcadores como a HTML e foi desenhada para descrever dados , a sua grande vantagem é que ela é extensível , ou seja , você não esta limitado a um certo número de tags , e pode criar as suas próprias tags, assim sendo ela é uma linguagem auto definível .
+--------------------------------------------------------------------------------------------------------------------------
+Qual a diferença entre GET e POST?
+
+R: GET É usado para obter algum recurso hospedado no servidor.
+POST É utilizado para enviar dados para o servidor.
+ --------------------------------------------------------------------------------------------------------------------------
+CRUD
+
+R:CRUD (Create, Read, Update, Delete)
+C: Create (criar) - criar um novo registro.
+R: Read (ler) - ler (exibir) as informações de um registro.
+U: Update (atualizar) - atualizar os dados do registro.
+D: Delete (apagar) - apagar um registro.
+--------------------------------------------------------------------------------------------------------------------------
+Qual a diferença e utilização dos atributos name,id e class nas tags?
+
+R:O atributo global id define um identificador exclusivo
+O atributo global class é uma lista das classes de um elemento, separada por espaços.
+O atributo NAME deve ser usado principalmente para identificar campos de formulários. Sempre que realizamos um “submit” de um formulário, o atributo NAME é o identificador dentro de uma requisição GET ou POST no servidor.
+--------------------------------------------------------------------------------------------------------------------------
+O que é backend?
+
+R:Back-end é toda a parte da programação voltada ao funcionamento interno de um software. Em outras palavras, back-end é tudo aquilo que está por trás da interface de uma aplicação
+--------------------------------------------------------------------------------------------------------------------------
+MVC
+
+R:Model (modelo) View (visão) e Controller (Controle)
+
+Model ou Modelo 
+Essa classe também é conhecida como Business Object Model (objeto modelo de negócio). Sua responsabilidade é gerenciar e controlar a forma como os dados se comportam por meio das funções, lógica e regras de negócios estabelecidas. 
+Ele é o detentor dos dados que recebe as informações do Controller, válida se ela está correta ou não e envia a resposta mais adequada. 
+
+Controller ou Controlador
+A camada de controle é responsável por intermediar as requisições enviadas pelo View com as respostas fornecidas pelo Model, processando os dados que o usuário informou e repassando para outras camadas. 
+Numa analogia bem simplista, o controller  operaria como o ‘’maestro de uma orquestra’’  que permite a comunicação entre o detentor dos dados e a pessoa com vários questionamentos no MVC. 
+
+View ou Visão
+Essa camada é responsável por apresentar as informações de forma visual ao usuário. Em seu desenvolvimento devem ser aplicados apenas recursos ligados a aparência como mensagens, botões ou telas. 
+Seguindo nosso processo de comparação o View está na linha de frente da comunicação com usuário e é responsável transmitir questionamentos ao controller e entregar as respostas obtidas ao usuário. É a parte da interface que se comunica, disponibilizando e capturando todas as informação do usuário.
+--------------------------------------------------------------------------------------------------------------------------
